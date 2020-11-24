@@ -1,6 +1,4 @@
 window.onload = function(){
-    let box = document.getElementsByClassName("box")[0];
-    box.addEventListener("click",function(){
-        alert("1");
-    })
+   let obj = Object.prototype.toString.call([1,4,5,45,7]);
+   console.log(obj);
 }
